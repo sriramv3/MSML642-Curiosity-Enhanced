@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Trained PPO and ICM models
+models/
+models_fixed/
+*.zip
+*.pth
+*.pt
+
+# Training logs
+logs/
+tensorboard/
+runs/
+*.log
+
+# Generated evaluation results
+evaluation_*.csv
+evaluation_*.png
+
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+README.md
