@@ -1,0 +1,4 @@
+algorithm,runs,mean_final_coverage,success_rate,mean_steps_to_95_percent,time_limit_failures,no_frontier_failures,mean_revisits,mean_collisions
+frontier,20,0.9667648809389078,1.0,40.1,0,0,3.65,0.0
+standard,60,0.7734915694915526,0.4666666666666667,218.78571428571428,32,0,319.43333333333334,0.0
+curiosity,60,0.8380610003735082,0.5666666666666667,167.2058823529412,26,0,257.4,0.0

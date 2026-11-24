@@ -1,0 +1,4 @@
+{
+  "mode": "sampled",
+  "selection": "Highest pooled tuning success rate, then mean coverage"
+}
