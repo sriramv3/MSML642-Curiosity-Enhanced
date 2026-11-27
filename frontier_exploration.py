@@ -1,10 +1,12 @@
 import argparse
 import csv
-from collections import deque
 from pathlib import Path
+
 import matplotlib.pyplot as plt
 import numpy as np
+
 from exploration_simulation import ExplorationEnv
+from frontier_policy import FrontierExplorer
 MOVES = ExplorationEnv.MOVES
 def neighbors(cell, shape):
     r, c = cell
